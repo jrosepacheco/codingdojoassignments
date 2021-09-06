@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+    <p>
+        <form action="/process" method="post">
+            <div>
+                <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" placeholder="First Name">
+            </div>
+            <div>
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="last_name" placeholder="Last Name">
+            </div>
+            <div>
+                <label for="email_address">Email Address:</label>
+                <input type="text" name="email_address" placeholder="Email Address">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password">
+            </div>
+            <div>
+                <label for="password">Confirm Password:</label>
+                <input type="password" name="password">
+            </div>
+            <div>
+                <label for="birthday">Date of Birth:</label>
+                <input type="date" id="birthday" name="birthday">
+            </div>
+            <div>
+                <div><label for="gender">Gender Identity:</label></div>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for= "male">Male</label>
+                <input type= "radio" name="gender" value="nonbianary" id="nonbianary">
+                <label for="nonbianary">Nonbianary</label>
+                <input type= "radio" name="gender" value="NA" id="NA">
+                <label for="NA">I prefer not to answer</label>
+            </div>
+            <div>
+                <div>
+                    <label for="bio">Some information about me:</label>
+                </div>
+                <textarea name="bio" cols="50" rows="10" placeholder="About me"></textarea>
+            </div>
+            <div>
+                <div>
+                    <label for="fave_lang">Favorite Coding Language:</label>
+                </div>
+                <select name="fave_lang">
+                    <option>JavaScript</option>
+                    <option>Python</option>
+                    <option>MERN</option>
+                    <option>Java</option>
+                    <option>SQL</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="updates" id="updates">
+                <label for="updates">I would like to receive periodic email updates.</label>
+            </div>
+            <div>
+                <input type="submit" value="Create Account!">
+            </div>
+        </form>
+    </p>
+</html>            
